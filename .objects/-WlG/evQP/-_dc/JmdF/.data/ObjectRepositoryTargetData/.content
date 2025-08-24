@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fxZahZ_0C02SeWZi--4Qrw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="money.rediff.com/companies/Infosys-Ltd/13020007" CVScreenId="345cf7d6-e91b-44e2-b7c3-106ba1662ea2" DesignTimeRectangle="19, 448, 107, 33" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='ltpid' type='' tag='SPAN' class='ltp red' /&gt;" Guid="6b2789ae-c9d7-4fb3-871e-635faa392386" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='INFOSYS LTD. - Share Price | Ratios | BSE/NSE Performance | Live Stock Quote' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="98e63ba5c8a48dbdccba58efed7076ad.png" xmlns="">0YuunWz62rkqn23nuVzd93w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HvsjtopPHkWY8oafmdPwbA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="money.rediff.com/index.html" CVScreenId="b4fcd56f-1ec5-4df8-a480-8e070cde7b0d" DesignTimeRectangle="951, 623, 27, 24" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' class='msprite newsrchbtn' aaname='' /&gt;" Guid="490f69cc-92f3-4918-9404-dc7f00e23497" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BSE: 80,232.34 | NSE: 24,479.05 - Live Stock Market | Share Prices | Mutual Fund India | Stock Market: Stock Market Today | Share Market Today - Rediff MoneyWiz' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="85971bcca4437aa3471f22d1a882ddcc.png" xmlns="">08aNTKF0-4EipBIrHUffc8w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

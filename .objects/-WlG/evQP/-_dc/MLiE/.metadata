@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT srchword",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "MLiE9nTQm0qEAzW9NDKqfg",
+  "Reference": "zM8cb30N-029h456YaRf_Q/MLiE9nTQm0qEAzW9NDKqfg",
+  "ParentRef": "zM8cb30N-029h456YaRf_Q/-_dcs4MJsE2E-4ccvFF3Ug",
+  "Created": "2025-08-07T04:47:26.5219617Z",
+  "Updated": "2025-08-07T04:47:26.5219617Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

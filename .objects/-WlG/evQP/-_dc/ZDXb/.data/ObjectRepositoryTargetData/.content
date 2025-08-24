@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FrDRK82JVkSdgMOHLJL0jw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="money.rediff.com/companies/Infosys-Ltd/13020007" CVScreenId="c7db0041-e8c3-42a7-a429-c6a28a35dfcd" CvTextArea="690, 522, 75, 16" CvType="AnyWordGroup" DesignTimeRectangle="650, 521, 156, 18" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='MarketCap' tag='P' type='' class='normal' /&gt;" Guid="fee3fc69-e649-4817-9ce0-0706ce16d972" ScopeSelectorArgument="&lt;html app='chrome.exe' title='INFOSYS LTD. - Share Price | Ratios | BSE/NSE Performance | Live Stock Quote' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c7db0041-e8c3-42a7-a429-c6a28a35dfcd" CvTextArea="673, 494, 86, 17" CvTextArgument="Mkt Cap (Rs." CvType="Text" DesignTimeRectangle="673, 493, 86, 18" ElementType="Text" Guid="46c9edb4-efbd-4041-b8a3-b6c08517db11" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5e0b7a7798ff5302e7752daabab534f1.png" xmlns="">0DDNBpC6xek-jed5H4e4sjQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

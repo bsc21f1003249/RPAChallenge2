@@ -1,0 +1,159 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Initialize_Applications" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property sap2010:Annotation.AnnotationText="Dictionary structure to store configuration data of the process (settings, constants and assets)." Name="in_Config" Type="InArgument(scg:Dictionary(x:String, x:Object))" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>396,292</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>Initialization_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Management.Automation</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Management.Automation</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="Open applications used in the process and do necessary initialization procedures (e.g., login)." DisplayName="Initialize All Applications" sap:VirtualizedContainerService.HintSize="1022,1203" sap2010:WorkflowViewState.IdRef="Sequence_9">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log message (Initialize applications)" sap:VirtualizedContainerService.HintSize="1022,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Opening applications...&quot;]" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome RELIANCE INDUSTRIES LTD. - Share Price" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1022,976" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="865ea301-3184-47e5-874e-5733e7c266b9" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="988,696" sap2010:WorkflowViewState.IdRef="Sequence_10">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheckState DisplayName="Check App State 'MOST TRADED COMPANIES'" sap:VirtualizedContainerService.HintSize="954,634" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="865ea301-3184-47e5-874e-5733e7c266b9" Timeout="30" Version="V4">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,230" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Page Successfully launched&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,352" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Page not launched&quot;]" />
+                  <Throw Exception="[new ApplicationException(&quot;Rediff money not launched&quot;)]" sap:VirtualizedContainerService.HintSize="416,115" sap2010:WorkflowViewState.IdRef="Throw_1" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="money.rediff.com/index.html" CVScreenId="e4710b70-7df0-4cb7-af21-0208df12c15e" ContentHash="49U9dVCRykCojpiGaPf9mg" DesignTimeRectangle="1019, 656, 330, 30" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='sechd botborder2' tag='H2' aaname='MOST TRADED COMPANIES' check:innerText='MOST TRADED COMPANIES' /&gt;" Guid="e826c35d-ff2f-496c-97b7-c8188aee3722" InformativeScreenshot="48cdf6522f2ca3b2e2ecd37cd99b5eec.png" Reference="zM8cb30N-029h456YaRf_Q/YwzAVSilP0m9rzj0TROWWw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BSE: 80,308.08 | NSE: 24,505.05 - Live Stock Market | Share Prices | Mutual Fund India | Stock Market: Stock Market Today | Share Market Today - Rediff MoneyWiz' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" ContentHash="diTNI9vj5kCq4R89MFIYXg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASMSURBVFhHxVdbbxtVELbgB4CgUEAqJKTNrUmbNjRdr3OjLTRNSUpEoz6ACoKqqKggpFJF8MBN3KFQocIbIIW3SggkoBKIIqA8wAOIPFBEKY1TiUvl9e7Gjp3YWXuYb8/setd2I6Ne/EnjXZ8zM9/smZlzdiO14p++vuuSWmwPy0dmNPanqcWylhYjCO4xhjnoQFfMLhyGprVZUX0SJIuxfsqxzEV7yVbEruAeY5iDjgpIn4StuPn/ODo+fqWp6e84sQGi/ttpXu8LkZ5PoANd2MAWPuBL3NaGc7rexM7iNLCZsuysnKRWgS188H0cPsX90rB0vQvGeIKgswsRzxd8C011WJrW4Br0DcKg6Dm4CFIUn1y0WoPQhUGRyBVcwXGJ9mKSe1IU39PgEtoSklH9sOTrkgo4wCW0CnZPf2OBK7Zqwd22kZIdaynZ1qFkzfpKnZ4oJTu7KNnSTkZzG19Xs946d7xcFxzgAqfQI/e974eKLqquyVZ21LmO7HvGKfXIo5Tau4+srdvI3KCJXq9LbDS3kz2yg9ITT1LmxZcpfXCCrG13kbGKg1nLAbOe75sFXOB0yae7Bq/mwQx6N6hkrGyh1J6HyZmOUznskbvdJ8QTW5vvpPx3J2QmjNwXX5LJfpPtnaEghCtjdm+5ip8+dr/Du1dwk4Hj1L794qYS9vguMlY0kr19lIoLCzJaHYV/z6kgAqkDFzjBjQCO5tX2qWT9BjK7e6hgGOKhoK5Asehe7LGdZDSurFidxV9PUu7Tz8iZmZERhdzxr910BGsCnOCO8J/T2Me9CRQach3E4k8/c+6HyeReTu1/jMyNOqUPHJRZhbmnn6XEshsoce1ySty4guYnP5QZBXvHmFsvHo9wnkYAWX/52TGqOPPqa2KmgJwbt9zKBdWtKr2phXJfHZdZXqSzZ8keHiF75y6avW832aNjNPvAg/6KAXPPv+D69gIQzixS4A/6ARx6S8wYuRxZg5tUNUNH2tI5+ZuaD5Ashfn3PnALGxweH7irB/D6ITFj5PNkbdlaEQDy7aHw19+U/+FHWvxlqiRTU2535E98T87vp9wUud1QHgDfVKZgqQC4kKCDFvOAGklccz0ZDU1qs+L9I3HTzWQNbHJ9JpYtV10QaHU/BfxTKsJaAmBBHaSfmBAFheyRd7k2mt1aQYtaQ8NUNC0ix6Hs20fcAsbqeT78IkQr+G1YYwBmt9TBqT9EScE5c4YWPv6E8t98KyMl2KO8eQW6wG9D/iltRAhgVStl3jwsZgrWHUPhADj65Oo17njRtkXr/EhPPOWummcPLn8jwnbIg2or9lfgDTFloAvKVwCCIFo7yGRHuc+PiXIYTnyGUg/tdVMD355taCsGQocRFxmKB32NA8Ua2q728YADXxAEFxdWDUGmHz9AmZdeoblnnqPZe3er84IL0tP17EKHERA6jqGIVsPxCgc4VquRBwXHMa8QyLCCOB2RItRKuW7V4xio6wsJgNckVpiWVFz+VzKgri+lHur6Wu6hrh8mHur6aRYEPjDxocnOL+/HaTkuzed5JPIfk02uQvr9ZrwAAAAASUVORK5CYII=" InformativeScreenshot="1056c06cc3c759e00c2c42994a5775f1.jpg" Reference="zM8cb30N-029h456YaRf_Q/TXXMR6DbWUCFe32LGHiDtg" Selector="&lt;html app='chrome.exe' title='BSE: 80,307.81 | NSE: 24,509.65 - Live Stock Market | Share Prices | Mutual Fund India | Stock Market: Stock Market Today | Share Market Today - Rediff MoneyWiz' /&gt;" Url="https://money.rediff.com/index.html" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

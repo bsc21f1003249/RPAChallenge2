@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="49U9dVCRykCojpiGaPf9mg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="money.rediff.com/index.html" CVScreenId="e4710b70-7df0-4cb7-af21-0208df12c15e" DesignTimeRectangle="1019, 656, 330, 30" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='sechd botborder2' tag='H2' aaname='MOST TRADED COMPANIES' check:innerText='MOST TRADED COMPANIES' /&gt;" Guid="e826c35d-ff2f-496c-97b7-c8188aee3722" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BSE: 80,308.08 | NSE: 24,505.05 - Live Stock Market | Share Prices | Mutual Fund India | Stock Market: Stock Market Today | Share Market Today - Rediff MoneyWiz' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="48cdf6522f2ca3b2e2ecd37cd99b5eec.png" xmlns="">0Trz5p5AEHUainNLpbgQhyA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

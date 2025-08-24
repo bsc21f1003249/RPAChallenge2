@@ -1,0 +1,14 @@
+﻿{
+  "Name": "MOST TRADED COMPANIES",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "YwzAVSilP0m9rzj0TROWWw",
+  "Reference": "zM8cb30N-029h456YaRf_Q/YwzAVSilP0m9rzj0TROWWw",
+  "ParentRef": "zM8cb30N-029h456YaRf_Q/TXXMR6DbWUCFe32LGHiDtg",
+  "Created": "2025-08-07T04:24:23.545558Z",
+  "Updated": "2025-08-07T04:24:23.545558Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

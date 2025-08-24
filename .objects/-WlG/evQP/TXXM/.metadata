@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome RELIANCE INDUSTRIES LTD. - Share Price",
+  "Type": "Screen",
+  "Id": "TXXMR6DbWUCFe32LGHiDtg",
+  "Reference": "zM8cb30N-029h456YaRf_Q/TXXMR6DbWUCFe32LGHiDtg",
+  "ParentRef": "zM8cb30N-029h456YaRf_Q/evQPx2E0S067cDElxcEHbw",
+  "Created": "2025-08-07T04:23:14.4619162Z",
+  "Updated": "2025-08-07T04:23:14.4619162Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
